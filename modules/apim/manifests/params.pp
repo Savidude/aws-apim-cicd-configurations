@@ -25,6 +25,7 @@ class apim::params {
   $start_script_template="bin/wso2server.sh"
   $mysql_connector="mysql-connector-java-5.1.41-bin.jar"
   $puppet_modules_path ="/var/lib/jenkins/workspace/wso2am-2.5.0/configs/modules"
+  $java_home = "/opt/jdk8u222-b10/"
 
     $hostname = 'APIM_ALB_DNS_NAME'
     $mgt_hostname = 'APIM_ALB_DNS_NAME'
